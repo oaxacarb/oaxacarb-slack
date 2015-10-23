@@ -6,12 +6,21 @@
 # Oaxaca.rb Slack 
 
 https://oaxacarb.herokuapp.com
+<<<<<<< HEAD
 
+http://oaxacarb.org/
+=======
 http://oaxacarb.org/
 
 Official website of Oaxaca.rb Link.
+>>>>>>> 10bfe3fd797b16fc8e9d8750303fdec03aed7329
 
+Official website of Oaxaca.rb Link.
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 10bfe3fd797b16fc8e9d8750303fdec03aed7329
 ## Getting Started
  
 ### Dependencies
