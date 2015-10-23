@@ -6,27 +6,28 @@
       | Es una comunidad de desarrolladores Oaxaqueños que tiene como objetivo impulsar el uso de Ruby como lenguaje de programación y todas las herramientas relacionadas con dicho lenguaje.
       br
       br
-      | Unete a la comunidad y platiquemos desde Slack!
+      | Únete a la comunidad y platiquemos desde Slack!
     div
-      =link_to 'Unete Ahora', 'https://oaxacarb.typeform.com/to/Ub48h7', id: 'join-now', class: 'btn btn-danger btn-lg'
+      =link_to 'Únete Ahora', 'https://oaxacarb.typeform.com/to/Ub48h7', id: 'join-now', class: 'btn btn-danger btn-lg'
     =link_to 'Ya eres miembro! Logeate aquí', 'https://oaxacarb.slack.com', class: 'btn btn-link'
   section
-    h2 Who we are
+    h2 Quienes somos
     p
-      | We are #{@team_members_count} Ruby on Rails developers from all over the world, 
-      | including avid OSS contributors, full-stack engineers, founders of startup, 
-      | backend engineers at enterprise and students learning Ruby on Rails.
+      | Somos  #{@team_members_count} desarrolladores Oaxaqueños de Ruby on Rails, 
+      | que buscan motivar el uso de prácticas ágiles de desarrollo, que permitan garantizar la mayor calidad del software con el menor esfuerzo. 
+      | Aunque esta comunidad se enfoque en Oaxaca, no busca limitarse a la cuestión geográfica, por lo que cualquier colaboración con otras 
+      | comunidades o programadores de otros lugares es bienvenida.
   section#channels
-    h2 Channels
-    p We have channels like these in our Slack.
+    h2 Canales
+    p Nuestros canales en Slack son:
     ul.list-unstyled.row
       - @channels.each do |channel|
         li.col-sm-4
           h3 ##{channel['name']}
           | #{channel['purpose']['value']}
           .num #{channel['num_members']}
-  section#timezones
-    h2 Time Zones
+/ section#timezones
+  h2 Time Zones
     p 
       | We have members from all over the world.
       br
