@@ -3,15 +3,17 @@
 [![Circle CI](https://circleci.com/gh/railslink/railslink.svg?style=shield)](https://circleci.com/gh/railslink/railslink)
 [![Coverage Status](https://coveralls.io/repos/railslink/railslink/badge.svg?branch=coverage&service=github)](https://coveralls.io/github/railslink/railslink?branch=coverage)
 
-# Ruby on Rails Link
+# Oaxaca.rb Slack 
 
-http://www.rubyonrails.link
+https://oaxacarb.herokuapp.com
 
-Official website of Ruby on Rails Link.
+http://oaxacarb.org/
+
+Official website of Oaxaca.rb Link.
 
 
 ## Getting Started
-
+ 
 ### Dependencies
 Make sure you have installed bundler and PostgreSQL.
 
@@ -35,10 +37,10 @@ SLACK_API_TOKEN=your-slack-api-token
 
 You can get your Slack API token at https://api.slack.com/web#authentication
 
-If you don't have a superuser yet, create railslink user, with password "railspgpw"
+If you don't have a superuser yet, create oaxacarb user, with password "oaxacarb"
 
 ```
-createuser -P -s -e railslink
+createuser -P -s -e oaxacarb
 ```
 
 Then run:
